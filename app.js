@@ -7,21 +7,21 @@ let oneEuroIs = {
 
 //This is my function from Euro to Dollar
 const EuroToDollar = (euros) => {
-    return euros = 1.07
+    return euros * 1.07
 }
 
 console.log(EuroToDollar(200))
 
 //This is my function from Dollar to Yen
 const dollarToYen = (dollar) => {
-    return dollar = 130
+    return dollar * 130
 }
 
 dollarToYen(oneEuroIs.USD)
 
 //This is my function from Yen to Pound
 const yenToPound = (yen) => {
-    return yen = 0.0052
+    return yen * 0.0052
 }
 
 yenToPound(oneEuroIs.JPY)
